@@ -1,0 +1,39 @@
+{
+  "name": "for-in",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/MakADin/for-in#readme",
+  "bugs": {
+    "url": "https://github.com/MakADin/for-in/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MakADin/for-in.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.29.7",
+    "@babel/core": "^7.29.7",
+    "@babel/preset-env": "^7.29.7",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.4.1",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^17.6.0",
+    "jest": "^30.4.2"
+  },
+  "dependencies": {
+    "core-js": "^3.49.0"
+  },
+  "allowScripts": {
+    "core-js@3.49.0": true,
+    "unrs-resolver@1.12.2": true
+  }
+}
